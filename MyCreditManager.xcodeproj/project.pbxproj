@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5A3F539C291E37A7001A8482 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F539B291E37A7001A8482 /* main.swift */; };
+		5AB106332924751D00A7E902 /* addStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB106322924751D00A7E902 /* addStudent.swift */; };
+		5AB10635292475B900A7E902 /* removeStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB10634292475B900A7E902 /* removeStudent.swift */; };
+		5AB106372924761300A7E902 /* updateScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB106362924761300A7E902 /* updateScore.swift */; };
+		5AB106392924763D00A7E902 /* deleteScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB106382924763D00A7E902 /* deleteScore.swift */; };
+		5AB1063B2924768100A7E902 /* getAverageScoreByName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1063A2924768100A7E902 /* getAverageScoreByName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		5A3F5398291E37A7001A8482 /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3F539B291E37A7001A8482 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5AB106322924751D00A7E902 /* addStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addStudent.swift; sourceTree = "<group>"; };
+		5AB10634292475B900A7E902 /* removeStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeStudent.swift; sourceTree = "<group>"; };
+		5AB106362924761300A7E902 /* updateScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateScore.swift; sourceTree = "<group>"; };
+		5AB106382924763D00A7E902 /* deleteScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteScore.swift; sourceTree = "<group>"; };
+		5AB1063A2924768100A7E902 /* getAverageScoreByName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAverageScoreByName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				5A3F539B291E37A7001A8482 /* main.swift */,
+				5AB106382924763D00A7E902 /* deleteScore.swift */,
+				5AB106362924761300A7E902 /* updateScore.swift */,
+				5AB106322924751D00A7E902 /* addStudent.swift */,
+				5AB10634292475B900A7E902 /* removeStudent.swift */,
+				5AB1063A2924768100A7E902 /* getAverageScoreByName.swift */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -121,6 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A3F539C291E37A7001A8482 /* main.swift in Sources */,
+				5AB1063B2924768100A7E902 /* getAverageScoreByName.swift in Sources */,
+				5AB10635292475B900A7E902 /* removeStudent.swift in Sources */,
+				5AB106332924751D00A7E902 /* addStudent.swift in Sources */,
+				5AB106372924761300A7E902 /* updateScore.swift in Sources */,
+				5AB106392924763D00A7E902 /* deleteScore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
